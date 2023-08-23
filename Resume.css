@@ -268,6 +268,10 @@ section .topic{
     color: #4070F4;
 }
 
+.skills .boxes .box .topic:hover{
+    transform: rotate(5deg)
+}
+
 /* Work Experience Section */
 .work{
     background: url("img/Work.jpg") no-repeat;
