@@ -99,7 +99,7 @@ nav .menu-btn{
 .home{
     height: 100vh;
     width: 100%;
-    background: url("_Resume\ images/Background.jpg") no-repeat;
+    background: url("img/Background.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -191,7 +191,7 @@ nav .menu-btn{
 .about{
     height: 70vh auto;
     width: 100%;
-    background: url("_Resume\ images/About Mee.jpg") no-repeat;
+    background: url("img/About Mee.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -280,7 +280,7 @@ section .topic{
 .skills{
     height: auto;
     width: 100%;
-    background: url("_Resume\ images/Skills.jpg") no-repeat;
+    background: url("img/Skills.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -327,7 +327,7 @@ section .topic{
 
 /* Work Experience Section */
 .work{
-    background: url("_Resume\ images/Work.jpg") no-repeat;
+    background: url("img/Work.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -376,7 +376,7 @@ section .topic{
 /* Event Experience */
 
 .event{
-    background: url("_Resume\ images/Event.jpg") no-repeat;
+    background: url("img/Event.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -441,7 +441,7 @@ section .topic{
 /* Quotes */
 
 .quote{
-    background: url("_Resume\ images/Quote.jpg") no-repeat;
+    background: url("img/Quote.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -496,7 +496,7 @@ section .topic{
 /* Business */
 
 .business{
-    background: url("_Resume\ images/Business.jpg") no-repeat;
+    background: url("img/Business.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -590,7 +590,7 @@ section .topic{
 /* Additional  */
 
 .info{
-    background: url("_Resume\ images/Infoo.jpg") no-repeat;
+    background: url("img/Infoo.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -773,7 +773,7 @@ footer .text span a{
     }
     
     .about{
-        background: url("_Resume\ images/About Mee S.jpg") no-repeat;
+        background: url("img/About Mee S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -785,35 +785,35 @@ footer .text span a{
     }
 
     .work{
-        background: url("_Resume\ images/Work S.jpg") no-repeat;
+        background: url("img/Work S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
     }
 
     .skills{
-        background: url("_Resume\ images/Skills S.jpg") no-repeat;
+        background: url("img/Skills S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
     }
     
     .event{
-        background: url("_Resume\ images/EVent S.jpg") no-repeat;
+        background: url("img/Event S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
     }
 
     .quote{
-        background: url("_Resume\ images/Quote S.jpg") no-repeat;
+        background: url("img/Quote S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
     }
     
     .business{
-        background: url("_Resume\ images/Business S.jpg") no-repeat;
+        background: url("img/Business S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
