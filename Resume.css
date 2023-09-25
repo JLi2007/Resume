@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    overflow: none;
 }
 
 /* Navigation Menu Css */
@@ -98,7 +99,7 @@ nav .menu-btn{
 .home{
     height: 100vh;
     width: 100%;
-    background: url("img/Background.jpg") no-repeat;
+    background: url("_Resume\ images/Background.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -136,12 +137,61 @@ nav .menu-btn{
     color:#4070F4;
 }
 
+.home button{
+    background-color:#4070F4;
+    color:#fff;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.home button.resume{
+    margin-left: 5px;
+}
+
+.home button.project{
+    margin-left: 50px;
+}
+
+.home button:hover{
+    background-color: #4070F4;
+    transform: scale(1.1);
+}
+
+.home button::before {
+    content: "";
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    background: rgba(0,0,0,0.2);
+    top: 2px;
+    left: 2px;
+    border-radius: 5px;
+    z-index: -1;
+    transition: opacity 0.2s;
+}
+
+.home button:hover::before{
+    opacity: 0;
+}
+
+.home button a{
+    color: #fff;
+}
+
 /* About Me Section*/
 
 .about{
     height: 70vh auto;
     width: 100%;
-    background: url("img/About Mee.jpg") no-repeat;
+    background: url("_Resume\ images/About Mee.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -202,6 +252,9 @@ section .title span::after{
     object-fit: cover;
     border-radius: 12px;
 }
+.about img:hover{
+    transform: scale(1.2);
+}
 
 .about .about-details .left{
     margin: 0 50px;
@@ -227,7 +280,7 @@ section .topic{
 .skills{
     height: auto;
     width: 100%;
-    background: url("img/Skills.jpg") no-repeat;
+    background: url("_Resume\ images/Skills.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -274,7 +327,7 @@ section .topic{
 
 /* Work Experience Section */
 .work{
-    background: url("img/Work.jpg") no-repeat;
+    background: url("_Resume\ images/Work.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -323,7 +376,7 @@ section .topic{
 /* Event Experience */
 
 .event{
-    background: url("img/Event.jpg") no-repeat;
+    background: url("_Resume\ images/Event.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -388,7 +441,7 @@ section .topic{
 /* Quotes */
 
 .quote{
-    background: url("img/Quote.jpg") no-repeat;
+    background: url("_Resume\ images/Quote.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -443,7 +496,7 @@ section .topic{
 /* Business */
 
 .business{
-    background: url("img/Business.jpg") no-repeat;
+    background: url("_Resume\ images/Business.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -537,7 +590,7 @@ section .topic{
 /* Additional  */
 
 .info{
-    background: url("img/Infoo.jpg") no-repeat;
+    background: url("_Resume\ images/Infoo.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -720,7 +773,7 @@ footer .text span a{
     }
     
     .about{
-        background: url("img/About Mee S.jpg") no-repeat;
+        background: url("_Resume\ images/About Mee S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -732,35 +785,35 @@ footer .text span a{
     }
 
     .work{
-        background: url("img/Work S.jpg") no-repeat;
+        background: url("_Resume\ images/Work S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
     }
 
     .skills{
-        background: url("img/Skills S.jpg") no-repeat;
+        background: url("_Resume\ images/Skills S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
     }
     
     .event{
-        background: url("img/Event S.jpg") no-repeat;
+        background: url("_Resume\ images/EVent S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
     }
 
     .quote{
-        background: url("img/Quote S.jpg") no-repeat;
+        background: url("_Resume\ images/Quote S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
     }
     
     .business{
-        background: url("img/Business S.jpg") no-repeat;
+        background: url("_Resume\ images/Business S.jpg") no-repeat;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
